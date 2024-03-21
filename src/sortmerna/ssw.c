@@ -46,11 +46,11 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <string.h>
-#include <emmintrin.h>
 #include <stdlib.h>
 #include <math.h>
 
 #include "ssw.h"
+
 
 #ifdef __GNUC__
 #define LIKELY(x) __builtin_expect((x),1)
